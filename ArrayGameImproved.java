@@ -30,6 +30,7 @@ public class U5_2_MatrizRandomTry {
 		
 		if (encontrarNumero(matriz,n)) {
 			System.out.println("Pues si, si que esta dins del vector, eres un maquineta."); 
+			imprimirNombre(nombre)
 		} else {
 			System.out.println("Tolai, no esta.");
 		}
@@ -111,6 +112,7 @@ public class U5_2_MatrizRandomTry {
 		}
 		
 	}
+
 	public static void imprimirNombre (String nombre) {
 	
 	System.out.println("Felicidades " + nombre + "has ganado.");
